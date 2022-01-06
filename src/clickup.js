@@ -1,4 +1,5 @@
-"use strict";
+'use strict'
+
 // Description:
 //   Clickup Task Previews and Details in Rocket.Chat, based on Hubot.
 // 
@@ -105,4 +106,4 @@ module.exports = function (robot) {
             getClickupDetailsMessage(msg,CLICKUP_REPLY_IN_THREAD,element.toUpperCase(),CLICKUP_TEAM_ID,CLICKUP_API_TOKEN);
         })
     });
-};
+}
