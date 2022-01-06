@@ -1,0 +1,27 @@
+version: "3.7"
+services:
+  rocketbot:
+    image: princecloud/hubot-rocketchat
+    environment:
+     - ROCKETCHAT_URL=https://rocket.example.com
+     - ROCKETCHAT_AUTH=password
+     - ROCKETCHAT_USER=hubot
+     - ROCKETCHAT_PASSWORD=supersecret
+     - BOT_NAME=hubot
+     - ROCKETCHAT_ROOM=GENERAL
+     - BOT_ALIAS=hubot
+     - LISTEN_ON_ALL_PUBLIC=false
+     - HUBOT_LOG_LEVEL=verbose
+     - HUBOT_CONVERSATION=true
+     - RESPOND_TO_DM=true
+     - RESPOND_TO_EDITED=false
+     - RESPOND_TO_LIVECHAT=false
+     - INTEGRATION_ID=hubot
+     - EXTERNAL_SCRIPTS=hubot-help,hubot-rocketchat-clickup
+     - npm_config_loglevel=info
+     - NODE_DEBUG=true
+     - CLICKUP_TEAM_ID=00000000
+     - CLICKUP_API_TOKEN=pk_00000000_ABCDEFGHIJKLMNOPQRSTVWXYZ
+     - CLICKUP_CUSTOM_KEY=abc
+    volumes:
+     - ./scripts:/home/hubot/scripts

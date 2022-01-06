@@ -1,0 +1,47 @@
+{
+  "name": "hubot-rocketchat-clickup",
+  "version": "1.0.0",
+  "files": [
+    "index.js"
+  ],
+  "author": {
+    "name": "Amir Moradi",
+    "url": "https://amirhmoradi.com"
+  },
+  "description": "Hubot Rocket.Chat Clickup Task Details",
+  "keywords": [
+    "hubot",
+    "adapter",
+    "rocketchat",
+    "rocket",
+    "chat",
+    "clickup",
+    "tasks"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amirhmoradi/hubot-rocketchat-clickup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amirhmoradi/hubot-rocketchat-clickup/issues",
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@rocket.chat/sdk": "https://github.com/RocketChat/Rocket.Chat.js.SDK.git",
+    "hubot": "^3.3.2",
+		"hubot-rocketchat": "https://github.com/amirhmoradi/hubot-rocketchat.git"
+  },
+  "peerDependencies": {
+    "hubot": "3.3.2"
+  },
+  "devDependencies": {
+    "base64-url": "^2.3.3",
+    "debug": "^4.3.3",
+    "fresh": "^0.5.2",
+    "mime": "^3.0.0",
+    "morgan": "^1.10.0",
+    "negotiator": "^0.6.2",
+    "dotenv": "^10.0.0"
+  }
+}
