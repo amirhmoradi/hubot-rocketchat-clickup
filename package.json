@@ -24,17 +24,10 @@
     "url": "https://github.com/amirhmoradi/hubot-rocketchat-clickup.git"
   },
   "bugs": {
-    "url": "https://github.com/amirhmoradi/hubot-rocketchat-clickup/issues",
+    "url": "https://github.com/amirhmoradi/hubot-rocketchat-clickup/issues"
   },
   "main": "index.js",
-  "dependencies": {
-    "@rocket.chat/sdk": "https://github.com/RocketChat/Rocket.Chat.js.SDK.git",
-    "hubot": "^3.3.2",
-		"hubot-rocketchat": "https://github.com/amirhmoradi/hubot-rocketchat.git"
-  },
-  "peerDependencies": {
-    "hubot": "3.3.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "base64-url": "^2.3.3",
     "debug": "^4.3.3",
