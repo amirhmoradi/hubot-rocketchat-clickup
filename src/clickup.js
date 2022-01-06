@@ -99,11 +99,11 @@ module.exports = function (robot) {
                 "tmid" : reply_in_thread ? reference_message.message.id : null
             })
         });
-    };
+    }
 
     robot.hear(CLICKUP_TASK_HEAR_REGEX, function(msg) {
         msg.match.forEach((element, index, array) => {
             getClickupDetailsMessage(msg,CLICKUP_REPLY_IN_THREAD,element.toUpperCase(),CLICKUP_TEAM_ID,CLICKUP_API_TOKEN);
         })
-    });
+    })
 }
