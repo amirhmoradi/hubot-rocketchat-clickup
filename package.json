@@ -1,6 +1,6 @@
 {
   "name": "hubot-rocketchat-clickup",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "Amir Moradi",
     "url": "https://amirhmoradi.com"
@@ -13,7 +13,9 @@
     "rocket",
     "chat",
     "clickup",
-    "tasks"
+    "tasks",
+    "hubot-scripts",
+    "clickup preview"
   ],
   "license": "Apache-2.0",
   "repository": {
